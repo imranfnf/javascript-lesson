@@ -237,7 +237,7 @@
 
 // if(price == 10 && savingAmount > 9){
 //    console.log("I will buy this product");
-    
+
 // }else{
 //     console.log("I will not buy this product");
 //  }
@@ -284,7 +284,7 @@
 //  friendsAge.push(30);
 //  friendsAge.push(31);
 //  console.log(friendsAge);
-    // console.log(friendsAge.length);
+// console.log(friendsAge.length);
 
 ////////////
 
@@ -430,3 +430,115 @@
 
 
 ////////////////////
+
+
+// Apply Js conversion of inch to feet using function
+
+// function inchToFeet(inch){
+
+//     var feet = inch/12;
+//     return feet;
+
+
+// }
+
+// var firstFeet = inchToFeet(156);
+// console.log(firstFeet);
+// var secondFeet = inchToFeet(188);
+// console.log(secondFeet);
+// var thirdFeet = inchToFeet(200);
+// console.log(thirdFeet);
+
+//////////////
+
+
+// Factorial using for loop and function
+
+// var factorial = 1;
+// for (var i = 1; i < 10; i++) {
+//     factorial = factorial * i;
+//     console.log(i, factorial);
+// }
+
+
+// function factorial(n) {
+
+//     var factorial = 1;
+//     for (var i = 1; i <= n; i++) {
+//         factorial = factorial * i;
+
+//     }
+//         return factorial;
+// }
+
+//    var result = factorial(10);
+//    console.log(result);
+
+
+//////////////////
+
+
+// Factorial using while loop and function
+
+// 5! = 1*2*3*4*5
+
+// var i = 1;
+// var factorial = 1;
+// while (i <= 25) {
+//     factorial = factorial * i;
+
+//     i++;
+
+// }
+
+// console.log(factorial);
+
+
+
+// function factorial(n) {
+
+//     var i = 1;
+//     var factorial = 1;
+//     while (i <= n) {
+//         factorial = factorial * i;
+
+//         i++;
+
+//     }
+//     return factorial;
+// }
+
+//  var result = factorial(50);
+//  console.log(result);
+
+
+///////////////////////
+
+
+// Factorials::::
+
+// 1! = 1
+// 2! = 1*2
+// 3! = 1*2*3
+// 4! = 3!*4
+// 6! = (6-1)!*6
+// 7! = (7-1)!*7
+// 8! = (8-1)!*8
+// 9! = (9-1)!*9
+// 10! =(10-1)!*10
+// n! =(n-1)!*n
+
+
+
+function factorial(n){
+    if(n == 0){
+        return 1;
+    }
+
+    else{
+
+        return n * factorial(n-1);
+    }
+}
+ var result = factorial(0);
+ console.log(result);
