@@ -530,15 +530,237 @@
 
 
 
-function factorial(n){
-    if(n == 0){
-        return 1;
-    }
+// function factorial(n){
+//     if(n == 0){
+//         return 1;
+//     }
 
-    else{
+//     else{
 
-        return n * factorial(n-1);
-    }
-}
- var result = factorial(0);
- console.log(result);
+//         return n * factorial(n-1);
+//     }
+// }
+//  var result = factorial(0);
+//  console.log(result);
+
+
+
+
+////////////////////
+
+
+// Fibonacci sequence::
+// 0, 1, 1, 2, 3, 5, 8, 13, 21-------
+// 0, 1, 2, 3, 4, 5, 6, 7,   8-------
+
+// fibo[2] = fibo[2-1] + fibo[2-2];
+// fibo[3] = fibo[3-1] + fibo[3-2];
+// fibo[4] = fibo[4-1] + fibo[2-2];
+// fibo[2] = fibo[2-1] + fibo[2-2];
+// fibo[2] = fibo[2-1] + fibo[2-2];
+// fibo[2] = fibo[2-1] + fibo[2-2];
+// fibo[2] = fibo[2-1] + fibo[2-2];
+
+//var fibo = [0, 1];
+
+// for(var i = 2; i<=10; i++){
+
+//     fibo[i] = fibo[i-1] + fibo[i-2];
+//     console.log(fibo[i], fibo[i- 1], fibo[i- 2]);
+// }
+
+
+
+
+// var fibo = [0, 1];
+// function fibonacci(n) {
+//     for (var i = 2; i <= n; i++) {
+
+//         fibo[i] = fibo[i - 1] + fibo[i - 2];
+//         console.log(fibo[i], fibo[i - 1], fibo[i - 2]);
+//     }
+//     return fibonacci;
+// }
+
+// var result = fibonacci(10);
+// console.log(result);
+
+///////////////////
+
+
+
+// Febonacci Recursive
+
+
+// function fibonacci(n){
+
+//     if(n == 0){
+//         return 0;
+//     }
+//     if(n == 1){
+//         return 1;
+//     }
+
+//     else{
+
+//         return fibonacci(n - 1) + fibonacci(n - 2);
+//     }
+// }
+//  var result = fibonacci(1);
+//  console.log(result);
+
+
+// Problem solution
+
+// Swap
+
+// var a = 5;
+// var b = 7;
+
+// console.log("Before swap a=", a, "b=", b);
+
+// var temp = a;
+// a = b;
+// b = temp;
+// console.log("After swap a=", a, "b=", b);
+
+// var x = 5;
+// var y = 7;
+
+// x = x+y;
+// y = x-y;
+// x = x-y;
+// console.log("After swap x=", x, "y=", y);
+
+
+// var p = 5;
+// var q = 7;
+// [p, q] = [q, p];
+
+// console.log("After swap p=", p, "q=", q);
+
+////////////////////
+
+
+// Random Number
+
+// var num = 2.45961;
+
+// var result = Math.round(num);
+// var result2 = Math.floor(num);
+// var result3 = Math.ceil(num);
+// var randomNum = Math.random(num) * 6;
+// var result4 = Math.round(randomNum);
+// console.log(result4);
+
+
+// for (var i = 0; i < 10; i++) {
+
+//     var randomNum = Math.random(num) * 6;
+//     var result4 = Math.round(randomNum);
+//     console.log(result4);
+
+// }
+
+///////////////
+
+//Max Number
+
+
+// var business = 250;
+// var minister = 350;
+// var secretary = 150;
+
+// if(business>minister){
+
+//     console.log("business is bigger");
+
+// }else{
+//     console.log("minister is bigger");
+// }
+
+
+// var max = Math.max(business, minister, secretary);
+// console.log(max);
+
+
+///////////////////
+
+
+// var marks = [89, 65, 25, 36, 45, 28, 79, 92 ,11, 36, 74, 39];
+
+// var max = marks[0];
+
+// for(var i=0; i<marks.length; i++){
+
+//       var  element = marks[i];
+//       if(element > max){
+
+//         max = element;
+//       }
+// }
+
+
+// console.log("Heighest value", max);
+
+/////////////
+
+
+// Sum
+
+
+// var numbers = [12, 14, 16, 18, 20, 22, 24];
+
+// var sum = 0;
+
+// for(var i =0; i<numbers.length; i++){
+
+//     var element = numbers[i];
+    
+//     sum = sum + element;
+// }
+
+//     console.log("Total number"= sum);
+
+
+//     function sumNumber(n){
+
+//         var sum = 0;
+
+// for(var i =0; n<numbers.length; i++){
+
+//     var element = numbers[n];
+
+//     sum = sum + element;
+// }
+//     return sum;
+//  }
+ 
+ ////////////////
+
+
+//  var num = [31, 12, 14, 36, 12, 69, 36, 48, 97, 89, 97];
+
+//  var uniqueNumber = [];
+
+//  for(var i = 0; i<num.length; i++){
+
+//         var element = num[i];
+//         var index = uniqueNumber.indexOf(element);
+
+//         if(index == - 1){
+//             uniqueNumber.push(element);
+//         }
+
+//  }
+
+//  console.log(uniqueNumber);
+
+
+
+ ///////////////////////
+
+
+
+
+ 
