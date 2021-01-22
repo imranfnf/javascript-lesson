@@ -56,21 +56,21 @@
 // Identifying the position of a string using indexOf--- an index starts with 0
 // and counts white-spaces.
 
-// var promise = "I promise that I will Work Hard To Become a Programmer";
+//  var promise = "I promise that I will Work Hard To Become a Programmer";
 
-// promise = promise.indexOf("will");
+//  promise = promise.indexOf("will");
 
-// console.log(promise);
+//  console.log(promise);
 
 ///////////////
 
 // String split-- It divides a string 
 
-// var promise = "I promise that I will Work Hard To Become a Programmer";
+//  var promise = "I promise that I will Work Hard To Become a Programmer";
 
-// promise = promise.split("I");
+//  promise = promise.split("I");
 
-//   console.log(promise);
+//  console.log(promise);
 
 
 ///////////
@@ -232,15 +232,15 @@
 
 
 
-//  var price = 10;
-//  var savingAmount = 10;
+//   var price = 10;
+//   var savingAmount = 10;
 
-// if(price == 10 && savingAmount > 9){
+//  if(price == 10 && savingAmount > 9){
 //    console.log("I will buy this product");
 
-// }else{
-//     console.log("I will not buy this product");
-//  }
+//  }else{
+//    console.log("I will not buy this product");
+//   }
 
 
 
@@ -250,7 +250,7 @@
 
 
 
-//Conditionals with or || statement -- In that case only one condition must be truse
+//Conditionals with or || statement -- In that case only one condition must be true
 
 // var price = 10;
 // var savingAmount = 10;
@@ -318,10 +318,10 @@
 
 // Array -- slice()-- It slices element start value to end value
 
-// var friendsAge = [27, 26, 29, 28,];
+//  var friendsAge = [27, 26, 29, 28,];
 
-// var result = friendsAge.slice(1, 2);
-// console.log(result);
+//  var result = friendsAge.slice(1, 2);
+//  console.log(result);
 
 
 //////////
@@ -341,17 +341,17 @@
 
 // For loop
 
-// for(var i = 0; i<= 20; i++){
+//  for(var i = 0; i<= 20; i++){
 
 //     console.log(i);
-// }
+//  }
 
 
 // For loop using array
 
-// var nums = [11, 14, 28, 35, 64, 78, 85];
+//  var nums = [11, 14, 28, 35, 64, 78, 85];
 
-// for(var i = 0; i<=nums.length; i++){
+//  for(var i = 0; i<=nums.length; i++){
 //     console.log(nums);
 // }
 
@@ -424,9 +424,10 @@
 // var student2 ={name:"Abul", id:0022, phone:712};
 
 // var phoneNo1 = student1.phone;
+
+// console.log(phoneNo1);
 // console.log(student1);
 // console.log(student2);
-// console.log(phoneNo1);
 
 
 ////////////////////
@@ -521,6 +522,7 @@
 // 2! = 1*2
 // 3! = 1*2*3
 // 4! = 3!*4
+// 5!  = 4!*5
 // 6! = (6-1)!*6
 // 7! = (7-1)!*7
 // 8! = (8-1)!*8
@@ -716,7 +718,7 @@
 // for(var i =0; i<numbers.length; i++){
 
 //     var element = numbers[i];
-    
+
 //     sum = sum + element;
 // }
 
@@ -735,8 +737,8 @@
 // }
 //     return sum;
 //  }
- 
- ////////////////
+
+////////////////
 
 
 //  var num = [31, 12, 14, 36, 12, 69, 36, 48, 97, 89, 97];
@@ -758,9 +760,41 @@
 
 
 
- ///////////////////////
+///////////////////////
+
+
+//Animal count
 
 
 
 
- 
+//function animalCalculator(depth){
+
+// var animal = 0;
+
+// if(depth<=10){
+//     var aminal = depth*50;
+// }
+// else if(depth<=20){
+
+//     var firstPart = 10*50;
+//     var remaining = depth - 10;
+//     var secondPart = remaining*100
+//     animal = firstPart+secondPart;
+// }
+// else{
+
+//     var firstPart = 10*50;
+//     var secondPart = 20*100;
+//     var remaining = depth -20;
+//     var thirdPart = remaining*300;
+//     animal = firstPart+secondPart+thirdPart;
+
+// }
+//     return animal;
+// }
+
+// var count = animalCalculator(22);
+// console.log(count);
+
+//////////////////////
