@@ -798,3 +798,74 @@
 // console.log(count);
 
 //////////////////////
+
+
+// Function in different purposes - You don't need to create if statement multiple times
+// in that case you can create function in stead of if else statement.
+
+
+
+// function evenify(num){
+//     if (num % 2== 0) {
+//         console.log(num, ": is an even number");
+//     }
+
+//     else{
+//         console.log(num, ": is an odd number");
+//     }
+
+// }
+
+
+// function evenify_All(numbers){
+//     for (let i = 0; i < numbers.length; i++) {
+//         const num = numbers[i];
+//         evenify(num);
+       
+        
+    
+//     }
+// }
+
+
+
+// var numbers = [2, 4, 6, 9, 13, 25];
+// evenify_All(numbers);
+
+
+
+// friendsAge = [12, 13, 15, 14, 28, 26, 16];
+// evenify_All(friendsAge);
+
+
+
+
+///////////////////////////
+
+
+
+// Call back function::
+
+
+// function callBack(name, age, task){
+//     console.log("Hello", name);
+//     console.log("Your age is", age);
+//     task();
+   
+// }
+
+// function washHand(){
+//     console.log("Please wash hand before taking food")
+// }
+
+// function takeShower(){
+//     console.log("Please take shower before taking food")
+// }
+
+// function scrollFacebook(){
+//     console.log("Please do not do facebooking")
+// }
+
+// callBack("Md. Imran Khan", 13, washHand);
+// callBack("Md. Kamran Khan", 29, takeShower);
+// callBack("Md. Irfan Khan", 21, scrollFacebook);
